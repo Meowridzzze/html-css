@@ -60,7 +60,7 @@ header {
 }
 
 .header__text {
-  padding-left: 50px;
+  padding-left: 90px;
   padding-top: 25px;
 }
 
@@ -232,7 +232,7 @@ header {
 }
 
 .left__box {
-  padding-left: 50px;
+  padding-left: 80px;
   padding-right: 60px;
 }
 
@@ -451,5 +451,103 @@ ul.specs {
   width: 260px;
   height: 40px;
   margin: 20px;
+}
+
+/* Contacts */
+.contacts {
+  height: 509px;
+  background-color: #445162;
+}
+
+.heading__contacts {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 25px;
+  padding-bottom: 43px;
+}
+
+.contacts__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 247px;
+  margin-right: 45px;
+}
+
+.name, .email {
+  width: 491px;
+  height: 31px;
+  border-radius: 5px;
+  border-color: #fff;
+  margin-bottom: 18px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-bottom: 7px;
+}
+
+.message {
+  width: 491px;
+  height: 161px;
+  border-radius: 5px;
+  border-color: #fff;
+  margin-bottom: 18px;
+  padding: 12px;
+}
+
+.send__btn {
+  text-transform: uppercase;
+  width: 143px;
+  height: 43px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: #fff;
+  margin: 0 180px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+}
+
+.contact__us {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.contact__us img {
+  padding-right: 5px;
+}
+
+.contact__us p {
+  padding-bottom: 16px;
+}
+
+.links {
+  padding-top: 50px;
+}
+
+/* Footer */
+footer {
+  height: 49px;
+}
+
+.footer__text {
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.3px;
+  color: #445162;
+  padding-top: 13px;
 }
 /*# sourceMappingURL=main.css.map */
